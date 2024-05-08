@@ -1,0 +1,23 @@
+POST http://localhost:3333/videos
+Content-type: application/json
+
+{
+    "title": "video fodastico",
+    "description": "video de numero 01u",
+    "duration": 327
+}
+
+###
+
+GET http://localhost:3333/videos
+
+###
+
+PUT http://localhost:3333/videos/4c0314ca-2879-4d01-9a29-a97c3eafc64b
+Content-type: application/json
+
+{
+    "title": "viiiv1",
+    "description": "video legau",
+    "duration": 327
+}
